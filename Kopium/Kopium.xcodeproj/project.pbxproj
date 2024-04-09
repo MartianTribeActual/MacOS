@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80073F8E2B9622C8000F6B13 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80073F8D2B9622C8000F6B13 /* BorderedView.swift */; };
+		80073F902B96282C000F6B13 /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80073F8F2B96282C000F6B13 /* RootModel.swift */; };
+		80323B712B9F5B37006AFA69 /* GoogleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80323B702B9F5B37006AFA69 /* GoogleManager.swift */; };
+		80323B762B9F5BF2006AFA69 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 80323B752B9F5BF2006AFA69 /* GoogleSignIn */; };
+		80323B782B9F5C03006AFA69 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80323B772B9F5C03006AFA69 /* GoogleSignInSwift */; };
+		80323B7A2B9F5C15006AFA69 /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = 80323B792B9F5C15006AFA69 /* GoogleAPIClientForREST_Drive */; };
+		80323B7C2B9F5C1D006AFA69 /* GoogleAPIClientForREST_Docs in Frameworks */ = {isa = PBXBuildFile; productRef = 80323B7B2B9F5C1D006AFA69 /* GoogleAPIClientForREST_Docs */; };
+		80323B7E2B9F5C2C006AFA69 /* GoogleAPIClientForREST_Gmail in Frameworks */ = {isa = PBXBuildFile; productRef = 80323B7D2B9F5C2C006AFA69 /* GoogleAPIClientForREST_Gmail */; };
+		80323B802B9F5D4F006AFA69 /* KonnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80323B7F2B9F5D4F006AFA69 /* KonnectManager.swift */; };
+		80323B822B9F5DAB006AFA69 /* ConfluenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80323B812B9F5DAB006AFA69 /* ConfluenceManager.swift */; };
+		8065A0E82B865D2400DDA538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A0E72B865D2400DDA538 /* AppDelegate.swift */; };
+		8065A0EA2B865D2400DDA538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A0E92B865D2400DDA538 /* ViewController.swift */; };
+		8065A0ED2B865D2400DDA538 /* Kopium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8065A0EB2B865D2400DDA538 /* Kopium.xcdatamodeld */; };
+		8065A0EF2B865D2700DDA538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8065A0EE2B865D2700DDA538 /* Assets.xcassets */; };
+		8065A0F22B865D2700DDA538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8065A0F02B865D2700DDA538 /* Main.storyboard */; };
+		8065A0FD2B865D2800DDA538 /* KopiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A0FC2B865D2800DDA538 /* KopiumTests.swift */; };
+		8065A1072B865D2800DDA538 /* KopiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A1062B865D2800DDA538 /* KopiumUITests.swift */; };
+		8065A1092B865D2800DDA538 /* KopiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A1082B865D2800DDA538 /* KopiumUITestsLaunchTests.swift */; };
+		8065A1162B865D6600DDA538 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065A1152B865D6600DDA538 /* AppManager.swift */; };
+		80C597372BA0A1B400F4F932 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 80C597362BA0A1B400F4F932 /* Alamofire */; };
+		80D23A822B9B721A00268FA3 /* DataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D23A812B9B721A00268FA3 /* DataTableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8065A0F92B865D2800DDA538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8065A0DC2B865D2400DDA538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8065A0E32B865D2400DDA538;
+			remoteInfo = Kopium;
+		};
+		8065A1032B865D2800DDA538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8065A0DC2B865D2400DDA538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8065A0E32B865D2400DDA538;
+			remoteInfo = Kopium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80073F8D2B9622C8000F6B13 /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		80073F8F2B96282C000F6B13 /* RootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModel.swift; sourceTree = "<group>"; };
+		80323B702B9F5B37006AFA69 /* GoogleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleManager.swift; sourceTree = "<group>"; };
+		80323B7F2B9F5D4F006AFA69 /* KonnectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonnectManager.swift; sourceTree = "<group>"; };
+		80323B812B9F5DAB006AFA69 /* ConfluenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfluenceManager.swift; sourceTree = "<group>"; };
+		8065A0E42B865D2400DDA538 /* Kopium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kopium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8065A0E72B865D2400DDA538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8065A0E92B865D2400DDA538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8065A0EC2B865D2400DDA538 /* Kopium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kopium.xcdatamodel; sourceTree = "<group>"; };
+		8065A0EE2B865D2700DDA538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8065A0F12B865D2700DDA538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8065A0F32B865D2700DDA538 /* Kopium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kopium.entitlements; sourceTree = "<group>"; };
+		8065A0F82B865D2800DDA538 /* KopiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KopiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8065A0FC2B865D2800DDA538 /* KopiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopiumTests.swift; sourceTree = "<group>"; };
+		8065A1022B865D2800DDA538 /* KopiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KopiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8065A1062B865D2800DDA538 /* KopiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopiumUITests.swift; sourceTree = "<group>"; };
+		8065A1082B865D2800DDA538 /* KopiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8065A1152B865D6600DDA538 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		80D23A812B9B721A00268FA3 /* DataTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8065A0E12B865D2400DDA538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80323B7A2B9F5C15006AFA69 /* GoogleAPIClientForREST_Drive in Frameworks */,
+				80323B762B9F5BF2006AFA69 /* GoogleSignIn in Frameworks */,
+				80323B7E2B9F5C2C006AFA69 /* GoogleAPIClientForREST_Gmail in Frameworks */,
+				80C597372BA0A1B400F4F932 /* Alamofire in Frameworks */,
+				80323B7C2B9F5C1D006AFA69 /* GoogleAPIClientForREST_Docs in Frameworks */,
+				80323B782B9F5C03006AFA69 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A0F52B865D2800DDA538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A0FF2B865D2800DDA538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80323B742B9F5BF2006AFA69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8065A0DB2B865D2400DDA538 = {
+			isa = PBXGroup;
+			children = (
+				8065A0E62B865D2400DDA538 /* Kopium */,
+				8065A0FB2B865D2800DDA538 /* KopiumTests */,
+				8065A1052B865D2800DDA538 /* KopiumUITests */,
+				8065A0E52B865D2400DDA538 /* Products */,
+				80323B742B9F5BF2006AFA69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8065A0E52B865D2400DDA538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8065A0E42B865D2400DDA538 /* Kopium.app */,
+				8065A0F82B865D2800DDA538 /* KopiumTests.xctest */,
+				8065A1022B865D2800DDA538 /* KopiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8065A0E62B865D2400DDA538 /* Kopium */ = {
+			isa = PBXGroup;
+			children = (
+				8065A0E72B865D2400DDA538 /* AppDelegate.swift */,
+				8065A1152B865D6600DDA538 /* AppManager.swift */,
+				80323B812B9F5DAB006AFA69 /* ConfluenceManager.swift */,
+				80073F8D2B9622C8000F6B13 /* BorderedView.swift */,
+				80D23A812B9B721A00268FA3 /* DataTableCell.swift */,
+				80323B702B9F5B37006AFA69 /* GoogleManager.swift */,
+				80323B7F2B9F5D4F006AFA69 /* KonnectManager.swift */,
+				80073F8F2B96282C000F6B13 /* RootModel.swift */,
+				8065A0E92B865D2400DDA538 /* ViewController.swift */,
+				8065A0EE2B865D2700DDA538 /* Assets.xcassets */,
+				8065A0F02B865D2700DDA538 /* Main.storyboard */,
+				8065A0F32B865D2700DDA538 /* Kopium.entitlements */,
+				8065A0EB2B865D2400DDA538 /* Kopium.xcdatamodeld */,
+			);
+			path = Kopium;
+			sourceTree = "<group>";
+		};
+		8065A0FB2B865D2800DDA538 /* KopiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				8065A0FC2B865D2800DDA538 /* KopiumTests.swift */,
+			);
+			path = KopiumTests;
+			sourceTree = "<group>";
+		};
+		8065A1052B865D2800DDA538 /* KopiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8065A1062B865D2800DDA538 /* KopiumUITests.swift */,
+				8065A1082B865D2800DDA538 /* KopiumUITestsLaunchTests.swift */,
+			);
+			path = KopiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8065A0E32B865D2400DDA538 /* Kopium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8065A10C2B865D2800DDA538 /* Build configuration list for PBXNativeTarget "Kopium" */;
+			buildPhases = (
+				8065A0E02B865D2400DDA538 /* Sources */,
+				8065A0E12B865D2400DDA538 /* Frameworks */,
+				8065A0E22B865D2400DDA538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kopium;
+			packageProductDependencies = (
+				80323B752B9F5BF2006AFA69 /* GoogleSignIn */,
+				80323B772B9F5C03006AFA69 /* GoogleSignInSwift */,
+				80323B792B9F5C15006AFA69 /* GoogleAPIClientForREST_Drive */,
+				80323B7B2B9F5C1D006AFA69 /* GoogleAPIClientForREST_Docs */,
+				80323B7D2B9F5C2C006AFA69 /* GoogleAPIClientForREST_Gmail */,
+				80C597362BA0A1B400F4F932 /* Alamofire */,
+			);
+			productName = Kopium;
+			productReference = 8065A0E42B865D2400DDA538 /* Kopium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8065A0F72B865D2800DDA538 /* KopiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8065A10F2B865D2800DDA538 /* Build configuration list for PBXNativeTarget "KopiumTests" */;
+			buildPhases = (
+				8065A0F42B865D2800DDA538 /* Sources */,
+				8065A0F52B865D2800DDA538 /* Frameworks */,
+				8065A0F62B865D2800DDA538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8065A0FA2B865D2800DDA538 /* PBXTargetDependency */,
+			);
+			name = KopiumTests;
+			productName = KopiumTests;
+			productReference = 8065A0F82B865D2800DDA538 /* KopiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8065A1012B865D2800DDA538 /* KopiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8065A1122B865D2800DDA538 /* Build configuration list for PBXNativeTarget "KopiumUITests" */;
+			buildPhases = (
+				8065A0FE2B865D2800DDA538 /* Sources */,
+				8065A0FF2B865D2800DDA538 /* Frameworks */,
+				8065A1002B865D2800DDA538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8065A1042B865D2800DDA538 /* PBXTargetDependency */,
+			);
+			name = KopiumUITests;
+			productName = KopiumUITests;
+			productReference = 8065A1022B865D2800DDA538 /* KopiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8065A0DC2B865D2400DDA538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8065A0E32B865D2400DDA538 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8065A0F72B865D2800DDA538 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8065A0E32B865D2400DDA538;
+					};
+					8065A1012B865D2800DDA538 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8065A0E32B865D2400DDA538;
+					};
+				};
+			};
+			buildConfigurationList = 8065A0DF2B865D2400DDA538 /* Build configuration list for PBXProject "Kopium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8065A0DB2B865D2400DDA538;
+			packageReferences = (
+				80323B722B9F5B5E006AFA69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				80323B732B9F5B9F006AFA69 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				80C597352BA0A0A000F4F932 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 8065A0E52B865D2400DDA538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8065A0E32B865D2400DDA538 /* Kopium */,
+				8065A0F72B865D2800DDA538 /* KopiumTests */,
+				8065A1012B865D2800DDA538 /* KopiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8065A0E22B865D2400DDA538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8065A0EF2B865D2700DDA538 /* Assets.xcassets in Resources */,
+				8065A0F22B865D2700DDA538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A0F62B865D2800DDA538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A1002B865D2800DDA538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8065A0E02B865D2400DDA538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D23A822B9B721A00268FA3 /* DataTableCell.swift in Sources */,
+				8065A0ED2B865D2400DDA538 /* Kopium.xcdatamodeld in Sources */,
+				80073F8E2B9622C8000F6B13 /* BorderedView.swift in Sources */,
+				8065A0EA2B865D2400DDA538 /* ViewController.swift in Sources */,
+				80073F902B96282C000F6B13 /* RootModel.swift in Sources */,
+				80323B802B9F5D4F006AFA69 /* KonnectManager.swift in Sources */,
+				8065A0E82B865D2400DDA538 /* AppDelegate.swift in Sources */,
+				80323B822B9F5DAB006AFA69 /* ConfluenceManager.swift in Sources */,
+				80323B712B9F5B37006AFA69 /* GoogleManager.swift in Sources */,
+				8065A1162B865D6600DDA538 /* AppManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A0F42B865D2800DDA538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8065A0FD2B865D2800DDA538 /* KopiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8065A0FE2B865D2800DDA538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8065A1072B865D2800DDA538 /* KopiumUITests.swift in Sources */,
+				8065A1092B865D2800DDA538 /* KopiumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8065A0FA2B865D2800DDA538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8065A0E32B865D2400DDA538 /* Kopium */;
+			targetProxy = 8065A0F92B865D2800DDA538 /* PBXContainerItemProxy */;
+		};
+		8065A1042B865D2800DDA538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8065A0E32B865D2400DDA538 /* Kopium */;
+			targetProxy = 8065A1032B865D2800DDA538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8065A0F02B865D2700DDA538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8065A0F12B865D2700DDA538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8065A10A2B865D2800DDA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8065A10B2B865D2800DDA538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8065A10D2B865D2800DDA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kopium/Kopium.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.Kopium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8065A10E2B865D2800DDA538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kopium/Kopium.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.Kopium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8065A1102B865D2800DDA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.KopiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kopium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kopium";
+			};
+			name = Debug;
+		};
+		8065A1112B865D2800DDA538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.KopiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kopium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kopium";
+			};
+			name = Release;
+		};
+		8065A1132B865D2800DDA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.KopiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kopium;
+			};
+			name = Debug;
+		};
+		8065A1142B865D2800DDA538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9RT49S32U7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartianTribe.KopiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kopium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8065A0DF2B865D2400DDA538 /* Build configuration list for PBXProject "Kopium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8065A10A2B865D2800DDA538 /* Debug */,
+				8065A10B2B865D2800DDA538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8065A10C2B865D2800DDA538 /* Build configuration list for PBXNativeTarget "Kopium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8065A10D2B865D2800DDA538 /* Debug */,
+				8065A10E2B865D2800DDA538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8065A10F2B865D2800DDA538 /* Build configuration list for PBXNativeTarget "KopiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8065A1102B865D2800DDA538 /* Debug */,
+				8065A1112B865D2800DDA538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8065A1122B865D2800DDA538 /* Build configuration list for PBXNativeTarget "KopiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8065A1132B865D2800DDA538 /* Debug */,
+				8065A1142B865D2800DDA538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80323B722B9F5B5E006AFA69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		80323B732B9F5B9F006AFA69 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		80C597352BA0A0A000F4F932 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80323B752B9F5BF2006AFA69 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80323B722B9F5B5E006AFA69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		80323B772B9F5C03006AFA69 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80323B722B9F5B5E006AFA69 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		80323B792B9F5C15006AFA69 /* GoogleAPIClientForREST_Drive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80323B732B9F5B9F006AFA69 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Drive;
+		};
+		80323B7B2B9F5C1D006AFA69 /* GoogleAPIClientForREST_Docs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80323B732B9F5B9F006AFA69 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Docs;
+		};
+		80323B7D2B9F5C2C006AFA69 /* GoogleAPIClientForREST_Gmail */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80323B732B9F5B9F006AFA69 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Gmail;
+		};
+		80C597362BA0A1B400F4F932 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80C597352BA0A0A000F4F932 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		8065A0EB2B865D2400DDA538 /* Kopium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8065A0EC2B865D2400DDA538 /* Kopium.xcdatamodel */,
+			);
+			currentVersion = 8065A0EC2B865D2400DDA538 /* Kopium.xcdatamodel */;
+			path = Kopium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8065A0DC2B865D2400DDA538 /* Project object */;
+}

@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "kopium-logo-light.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kopium-logo-light 1.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
